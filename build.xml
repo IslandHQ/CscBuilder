@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <!-- ビルド設定 -->
+  <PropertyGroup>
+    <!-- .NET Frameworkバージョン: v4.0.30319, v3.5, v2.0.50727 -->
+    <FrameworkVersion>v4.0.30319</FrameworkVersion>
+
+    <!-- 出力タイプ: exe または dll -->
+    <OutputType>exe</OutputType>
+
+    <!-- 出力先ディレクトリ -->
+    <OutputPath>bin</OutputPath>
+
+    <!-- 出力ファイル名（拡張子なし） -->
+    <AssemblyName>CscBuilder</AssemblyName>
+
+    <!-- プラットフォーム: x86, x64, anycpu -->
+    <Platform>anycpu</Platform>
+
+    <!-- 構成: Debug または Release -->
+    <Configuration>Release</Configuration>
+  </PropertyGroup>
+
+  <!-- ソースファイルと参照 -->
+  <ItemGroup>
+    <!-- コンパイル対象のソースファイル -->
+    <!-- ワイルドカードで複数ファイルを指定可能 -->
+    <Compile Include="*.cs" />
+
+    <!-- アセンブリ参照 -->
+    <Reference Include="System.dll" />
+    <Reference Include="System.Core.dll" />
+    <Reference Include="System.Xml.dll" />
+    <Reference Include="System.Xml.Linq.dll" />
+  </ItemGroup>
+</Project>

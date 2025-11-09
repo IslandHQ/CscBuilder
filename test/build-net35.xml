@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+    <FrameworkVersion>v3.5</FrameworkVersion>
+    <OutputType>exe</OutputType>
+    <OutputPath>.</OutputPath>
+    <AssemblyName>HelloWorld_Net35</AssemblyName>
+    <Platform>anycpu</Platform>
+    <Configuration>Release</Configuration>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="*.cs" />
+    <Reference Include="System.dll" />
+  </ItemGroup>
+</Project>

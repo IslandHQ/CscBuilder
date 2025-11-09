@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+    <OutputType>exe</OutputType>
+    <OutputPath>.</OutputPath>
+    <AssemblyName>HelloWorld</AssemblyName>
+    <Platform>anycpu</Platform>
+    <Configuration>Release</Configuration>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="*.cs" />
+    <Reference Include="System.dll" />
+  </ItemGroup>
+</Project>
